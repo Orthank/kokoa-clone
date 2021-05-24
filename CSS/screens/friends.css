@@ -63,3 +63,7 @@
   font-size: 128px;
   animation: hideSplashScreen 2s ease-in-out forwards;
 }
+
+.user-component {
+  margin-bottom: 20px;
+}

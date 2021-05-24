@@ -41,3 +41,26 @@ body {
   left: 2px;
   top: -5px;
 }
+
+.chat-room-img1 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+}
+.chat-room-img2 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+}
+
+.chat-room-img1 img:first-child {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.chat-room-img1 img:last-child {
+  margin-bottom: 5px;
+}
+
+.chat-room-img2 img:first-child {
+  margin-right: 5px;
+}

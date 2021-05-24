@@ -39,13 +39,23 @@
 }
 
 .main-chat .message-row {
-  transform: translateX(-100px);
+  transform: translateX(-300px);
   animation: fadeIn 0.5s ease-in-out forwards;
 }
 
-.main-chat .message-row:last-child {
+.main-chat .second {
   transform: translateX(300px);
   animation-delay: 1s;
+}
+
+.main-chat .last {
+  transform: translateX(-500px);
+  animation-delay: 2s;
+}
+
+.main-chat .la-st {
+  transform: translateX(-500px);
+  animation-delay: 3s;
 }
 
 .chat__timestamp {
